@@ -26,7 +26,7 @@ public class FreemarkerController {
         dataMap.put("name", "傅泽鹏");
         dataMap.put("age", 20);
         dataMap.put("sex", "男");
-        dataMap.put("imgheader", emw.getImageStr("D:\\图片\\130.png"));
+        dataMap.put("imgheader",emw.getImageStr("D:\\130.png"));
         dataMap.put("phoneNum", "1358****790");
         dataMap.put("project", "计算机");
         dataMap.put("address", "杭州");
@@ -38,6 +38,6 @@ public class FreemarkerController {
         dataMap.put("education", "本科");
         dataMap.put("projectExperience", "辩论小程序开发");
         dataMap.put("introduce", "喜欢二次元，编程的大学生");
-        emw.createWord(dataMap, "templates/information.ftl", "D:\\记事本\\公司\\简历.doc");
+        emw.createWord(dataMap, "templates/information.ftl", "D:\\简历.doc");
     }
 }

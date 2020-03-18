@@ -124,7 +124,7 @@ public class ExportMyWord {
         dataMap.put("name", "傅泽鹏");
         dataMap.put("age", 20);
         dataMap.put("sex", "男");
-        dataMap.put("imgheader", emw.getImageStr("D:\\图片\\130.png"));
+        dataMap.put("imgheader", emw.getImageStr("D:\\130.png"));
         dataMap.put("phoneNum", "135880***0");
         dataMap.put("project", "计算机");
         dataMap.put("address", "杭州");
@@ -154,6 +154,6 @@ public class ExportMyWord {
         dataMap.put("list", newsList);
         dataMap.put("projectExperience", "辩论小程序开发");
         dataMap.put("introduce", "喜欢二次元，编程的大学生");
-        emw.createWord(dataMap, "information_list_double.ftl", "D:\\记事本\\公司\\简历3.docx");
+        emw.createWord(dataMap, "information_list_double.ftl", "D:\\简历3.doc");
     }
 }
