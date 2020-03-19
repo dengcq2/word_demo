@@ -1,4 +1,4 @@
-package com.github.brandonbai.pdfDemo.util;
+package com.lamarsan.word_demo.utils;
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;
@@ -24,7 +24,7 @@ public class FreemarkerUtil {
      */
     static{
         config = new Configuration();
-        config.setClassForTemplateLoading(FreemarkerUtil.class, "/ftl/");
+        config.setClassForTemplateLoading(FreemarkerUtil.class, "/templates/");
         config.setTemplateUpdateDelay(0);
     }
 

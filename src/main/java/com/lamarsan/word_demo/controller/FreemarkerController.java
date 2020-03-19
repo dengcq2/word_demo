@@ -38,6 +38,6 @@ public class FreemarkerController {
         dataMap.put("education", "本科");
         dataMap.put("projectExperience", "辩论小程序开发");
         dataMap.put("introduce", "喜欢二次元，编程的大学生");
-        emw.createWord(dataMap, "templates/information.ftl", "D:\\简历.doc");
+        emw.createWord(dataMap, "information.ftl", "D:\\简历.doc");
     }
 }

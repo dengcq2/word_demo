@@ -118,42 +118,57 @@ public class ExportMyWord {
 
     }
 
+//    public static void main(String[] args) {
+//        ExportMyWord emw = new ExportMyWord();
+//        Map<String, Object> dataMap = new HashMap<String, Object>();
+//        dataMap.put("name", "傅泽鹏");
+//        dataMap.put("age", 20);
+//        dataMap.put("sex", "男");
+//        dataMap.put("imgheader", emw.getImageStr("D:\\130.png"));
+//        dataMap.put("phoneNum", "135880***0");
+//        dataMap.put("project", "计算机");
+//        dataMap.put("address", "杭州");
+//        dataMap.put("natureWork", "全职");
+//        dataMap.put("industry", "IT");
+//        dataMap.put("application", "Java开发");
+//        List<Map<String, Object>> newsList = new ArrayList<Map<String, Object>>();
+//        Map<String, Object> map = new HashMap<String, Object>();
+//        Map<String, Object> map2 = new HashMap<String, Object>();
+//        Map<String, Object> map3 = new HashMap<String, Object>();
+//        map.put("time", "2017年-2021年");
+//        map.put("schoolname", "浙江科技学院");
+//        map.put("education", "本科");
+//        map.put("glory", "荣誉");
+//        map2.put("time", "2014年-2017年");
+//        map2.put("schoolname", "瑞安四中");
+//        map2.put("education", "高中");
+//        map2.put("glory", "荣誉");
+//        map3.put("time", "2011年-2014年");
+//        map3.put("schoolname", "莘塍一中");
+//        map3.put("education", "初中");
+//        map3.put("glory", "荣誉");
+//        newsList.add(map);
+//        newsList.add(map2);
+//        newsList.add(map3);
+//        //注意list 的名字
+//        dataMap.put("list", newsList);
+//        dataMap.put("projectExperience", "辩论小程序开发");
+//        dataMap.put("introduce", "喜欢二次元，编程的大学生");
+//        emw.createWord(dataMap, "test.ftl", "D:\\简历.doc");
+//    }
+
+
+
+
     public static void main(String[] args) {
         ExportMyWord emw = new ExportMyWord();
         Map<String, Object> dataMap = new HashMap<String, Object>();
-        dataMap.put("name", "傅泽鹏");
-        dataMap.put("age", 20);
-        dataMap.put("sex", "男");
-        dataMap.put("imgheader", emw.getImageStr("D:\\130.png"));
-        dataMap.put("phoneNum", "135880***0");
-        dataMap.put("project", "计算机");
-        dataMap.put("address", "杭州");
-        dataMap.put("natureWork", "全职");
-        dataMap.put("industry", "IT");
-        dataMap.put("application", "Java开发");
-        List<Map<String, Object>> newsList = new ArrayList<Map<String, Object>>();
-        Map<String, Object> map = new HashMap<String, Object>();
-        Map<String, Object> map2 = new HashMap<String, Object>();
-        Map<String, Object> map3 = new HashMap<String, Object>();
-        map.put("time", "2017年-2021年");
-        map.put("schoolname", "浙江科技学院");
-        map.put("education", "本科");
-        map.put("glory", "荣誉");
-        map2.put("time", "2014年-2017年");
-        map2.put("schoolname", "瑞安四中");
-        map2.put("education", "高中");
-        map2.put("glory", "荣誉");
-        map3.put("time", "2011年-2014年");
-        map3.put("schoolname", "莘塍一中");
-        map3.put("education", "初中");
-        map3.put("glory", "荣誉");
-        newsList.add(map);
-        newsList.add(map2);
-        newsList.add(map3);
-        //注意list 的名字
-        dataMap.put("list", newsList);
-        dataMap.put("projectExperience", "辩论小程序开发");
-        dataMap.put("introduce", "喜欢二次元，编程的大学生");
-        emw.createWord(dataMap, "information_list_double.ftl", "D:\\简历3.doc");
+        dataMap.put("contract", "鸡巴合同");
+
+        dataMap.put("supplier", "鸡巴供应商");
+        dataMap.put("tile", "鸡巴标题");
+
+
+        emw.createWord(dataMap, "test.ftl", "D:\\简历.doc");
     }
 }

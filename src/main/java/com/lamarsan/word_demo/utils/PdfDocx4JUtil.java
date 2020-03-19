@@ -28,7 +28,7 @@ import java.io.OutputStream;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Docx4JUtil {
+public class PdfDocx4JUtil {
 
     /**
      * 生成pdf文档
